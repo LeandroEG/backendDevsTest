@@ -40,4 +40,5 @@ public class ProductSimilarController implements ProductRestApi {
 
 		return ResponseEntity.ok(similarProducts);
 	}
+	
 }

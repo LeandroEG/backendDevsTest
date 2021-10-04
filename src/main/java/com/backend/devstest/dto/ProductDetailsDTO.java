@@ -37,5 +37,5 @@ public class ProductDetailsDTO {
 	@NotBlank
 	@Schema(description = "product availability")
 	private boolean availability;
-
+	
 }

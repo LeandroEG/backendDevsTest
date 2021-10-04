@@ -21,4 +21,5 @@ public interface ProductRestApi {
 
 	@GetMapping("/{productId}/similar")
 	public ResponseEntity<Set<ProductDetailsDTO>> findSimilarProducts(@Valid @PathVariable String productId);
+	
 }

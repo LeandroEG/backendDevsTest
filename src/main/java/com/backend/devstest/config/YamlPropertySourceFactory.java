@@ -20,5 +20,5 @@ public class YamlPropertySourceFactory implements PropertySourceFactory {
 
 		return new PropertiesPropertySource(encodedResource.getResource().getFilename(), properties);
 	}
-
+	
 }
